@@ -1,0 +1,18 @@
+[package]
+name = "dailyprogrammer_rs"
+version = "0.1.0"
+authors = ["Daniel D'Souza <daniel.dsouza5@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "packetassembler"
+path - "src/bin/packetassembler.rs"
+
+[lib]
+name = "dynamic_programming"
+path = "src/lib/dynamic_programming.rs"
+
+[[bin]]
+name = "summits"
+path = "src/bin/summits.rs"
